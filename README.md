@@ -1,7 +1,7 @@
 # Gujarati-Text-Extraction-from-images
 
 ## Dataset
--Dataset Source
+- Dataset Source
   - We acquired handwritten Gujarati letters written by different writers on a paper in form of 2d matrix.
   - This was done for all the 36 letter which eventually are our output classes for classification
   - Data Type: Image file
