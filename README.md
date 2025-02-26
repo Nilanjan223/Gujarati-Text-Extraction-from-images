@@ -1,42 +1,29 @@
 # Gujarati-Text-Extraction-from-images
 
-This application is a fun game which assess soft skills of our user and display the score at the end of play. 
-
-For the user logging in first time, credential used will be saved and can be used again to login.
-
-Admin can see the dashboard which shows the analytics of every user.
-
-
-## Solution
-
-The hunt will get completed once all the given 5 clue are answered correctly.
-
-If user doesn't know the answer then it can use the 'Show Answer'
-funcitonality to complete the hunt.
-## Features
-
-- Anyone with email id and password can play game.
-- It contains 5 clues and minimum 1 solution.
-- Clues can be used to move forward in game.
-- Analytics is stored in database.
-- If user logs out before completing game, then user will start from the same step rather than from clue 1.
-
-### Additional Features
-- User analytics dashboard can bee seen by admin.
+## Dataset
+-Dataset Source
+  - We acquired handwritten Gujarati letters written by different writers on a paper in form of 2d matrix.
+  - This was done for all the 36 letter which eventually are our output classes for classification
+  - Data Type: Image file
+- Data Size: 8-10 image file containing Gujarati letters.
+- Training/Test Data Set: Extract image of each character from image.
+### Dataset screenshot
+![image](https://github.com/user-attachments/assets/9f70f422-7753-4ce3-9880-7f5a49341d05)
 
 
-## Soft Skill
-This app can assess soft skill using three categories: 
+## Models Used
+1. CNN
+2. CNN + Transfer Learning ( Typed gujrati script ) 
 
-1.  Math
-2.  Geography
-3.  Sport
 
-- Math can be used to assess soft skills such as problem-solving, critical thinking, and decision-making. 
+### Model Results
+![image](https://github.com/user-attachments/assets/56da81ee-81b4-4323-8d70-d9384c41f4c6)
+#### CNN 
+![image](https://github.com/user-attachments/assets/9bb66637-6314-477d-9075-efe659b5ebde)
+![image](https://github.com/user-attachments/assets/1250458f-997a-4465-928e-7dc55bdc75a1)
 
-- Geography can be used to assess soft skills such as cultural awareness and communication.
 
-- Sports can be used to assess soft skills such as teamwork, leadership, and perseverance.
+
 
 
 
