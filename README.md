@@ -1,0 +1,1 @@
+# Gujarati-Text-Extraction-from-images
